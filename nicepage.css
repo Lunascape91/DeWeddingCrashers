@@ -42577,11 +42577,11 @@ a.u-link.u-text-hover-grey-90:hover {
 
 .u-header .u-social-icons-1 {
   white-space: nowrap;
-  height: 32px;
+  height: 46px;
   min-height: 16px;
-  width: 116px;
+  width: 158px;
   min-width: 68px;
-  margin: -72px 0 64px auto;
+  margin: -46px 0 23px auto;
 }
 
 .u-header .u-icon-1 {
@@ -42612,6 +42612,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-weight: 700;
   font-size: 0.75rem;
   text-transform: uppercase;
+  letter-spacing: normal;
 }
 
 .u-header .u-nav-2 {
@@ -42622,20 +42623,22 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 @media (max-width: 1199px) {
   .u-header .u-social-icons-1 {
-    width: 158px;
     min-width: 94px;
   }
 }
-@media (max-width: 1199px) {
-  .u-header .u-nav-1 {
-    letter-spacing: normal;
+
+
+
+
+
+@media (max-width: 575px) {
+  .u-header .u-social-icons-1 {
+    height: 45px;
+    width: 155px;
+    min-width: 68px;
+    margin-top: -45px;
   }
 }
-
-
-
-
-
 
  .u-footer {
   background-image: none;
